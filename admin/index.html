@@ -12,6 +12,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
         
+
         <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
         <link rel="stylesheet" href="plugins/icon-kit/dist/css/iconkit.min.css">
@@ -27,6 +28,11 @@
         <link rel="stylesheet" href="plugins/owl.carousel/dist/assets/owl.theme.default.min.css">
         <link rel="stylesheet" href="dist/css/theme.min.css">
         <script src="src/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+        
+    
+
     </head>
 
     <body>
@@ -225,7 +231,7 @@
                                     </div>
                                 </div>
                                 <div class="nav-item">
-                                    <a href="#"><i class="ik ik-pie-chart"></i><span>Visitantes del sitio</span></a>
+                                    <a href="pages/admin/visitantes-del-sitio.html"><i class="ik ik-pie-chart"></i><span>Visitantes del sitio</span></a>
 
                                 </div>
 
@@ -291,131 +297,239 @@
                 <div class="main-content">
                     <div class="container-fluid">
                         <div class="row clearfix">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Proyectos publicados</h6>
-                                                <h2>1,410</h2>
+                            <div class="col-md-12 col-xl-4">
+                                <div class="card sale-card">
+                                    <div class="card-header">
+                                        <h3>Ingresos</h3>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <div id="tot-rev-chart" class="tot-rev-chart chart-shadow st-cir-chart" style="width:200px;height:50px">
+                                            <h3>$294.50 MXN</h3>
+                                        </div>
+                                        <h6 class="mt-40">Ventas totales de hoy</h6>
+                                        <h3 class="fw-700 mb-40">45</h3>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-1">Target</p>
+                                                <h3 class="fw-700 text-green">$400</h3>
                                             </div>
-                                            <div class="icon">
-                                                <i class="ik ik-award"></i>
+                                            <div class="col-4">
+                                                <p class="mb-5">Ayer</p>
+                                                <h3 class="fw-700 text-yellow">$340</h3>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="mb-3">Semana pasada</p>
+                                                <h4 class="fw-700 text-yellow">$1402</h4>
                                             </div>
                                         </div>
-                                        <small class="text-small mt-10 d-block">6% higher than last month</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%;"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
+
+                            <div class="col-sm-2">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center " style="height: 190px;">
                                             <div class="state">
-                                                <h6>Posts Recientes</h6>
-                                                <h2>41,410</h2>
+                                                <h3 class="text-success">234</h3>
+                                                <p class="card-subtitle text-muted fw-500">Nuevas Ordenes</p>
                                             </div>
-                                            <div class="icon">
-                                                <i class="ik ik-thumbs-up"></i>
+                                            <div class="icon"><i class="ik ik-shopping-cart"></i></div>
+                                        </div>
+                                        <div class="progress mt-3 mb-1" style="height: 6px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                             </div>
                                         </div>
-                                        <small class="text-small mt-10 d-block">61% higher than last month</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;"></div>
+                                        <div class="text-muted f12">
+                                            <span>Progress</span>
+                                            <span class="float-right">83%</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
+                            
+                            <div class="col-sm-3">
+                                <div class="card" >
+                                    <div class="card-body" >
+                                        <div class="d-flex justify-content-between align-items-center " style="height: 190px;">
                                             <div class="state">
-                                                <h6>Events</h6>
-                                                <h2>410</h2>
+                                                <h3 class="text-danger">48</h3>
+                                                <p class="card-subtitle text-muted fw-500">Clientes nuevos</p>
                                             </div>
                                             <div class="icon">
-                                                <i class="ik ik-calendar"></i>
+                                                <i class="ik ik-user f-30"></i>
                                             </div>
                                         </div>
-                                        <small class="text-small mt-10 d-block">Total Events</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100" style="width: 31%;"></div>
+                                        <div class="progress mt-3 mb-1" style="height: 6px;">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 77%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                        <div class="text-muted f12">
+                                            <span>Progress</span>
+                                            <span class="float-right">77%</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Comments</h6>
-                                                <h2>41,410</h2>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ik ik-message-square"></i>
-                                            </div>
-                                        </div>
-                                        <small class="text-small mt-10 d-block">Total Comments</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8">
+                            
+                            <div class="col-sm-3">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-8 col-md-12">
-                                                <h3 class="card-title">Visitors By Countries</h3>
-                                                <div id="visitfromworld" style="width:100%; height:350px"></div>
+                                        <div class="d-flex justify-content-between align-items-center " style="height: 190px;">
+                                            <div class="state">
+                                                <h3 class="text-info">3462</h3>
+                                                <p class="card-subtitle text-muted fw-500">Visitas</p>
                                             </div>
-                                            <div class="col-lg-4 col-md-12">
-                                                <div class="row mb-15">
-                                                    <div class="col-9">India</div>
-                                                    <div class="col-3 text-right">28%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-green" role="progressbar" style="width: 48%" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-15">
-                                                    <div class="col-9"> UK</div>
-                                                    <div class="col-3 text-right">21%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-aqua" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-15">
-                                                    <div class="col-9"> USA</div>
-                                                    <div class="col-3 text-right">18%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-purple" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-9">China</div>
-                                                    <div class="col-3 text-right">12%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="icon">
+                                                <i class="ik ik-trending-up"></i>
                                             </div>
                                         </div>
+                                        <div class="progress mt-3 mb-1" style="height: 6px;">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 56%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                        <div class="text-muted f12">
+                                            <span>Progress</span>
+                                            <span class="float-right">56%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Seccion 2-->
+                            
+                            
+
+                            <div class=" col-md-12">
+                                <div class="card card-title">
+                                    <div class="card-block">
+                                        <div class="row align-items-center">
+                                            <h3> <i class="ik bi bi-cart-check-fill"></i>  Últimas ordenes realizadas</h3>
+                                            <table id="" class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="nosort" width="10">
+                                                            <label class="custom-control custom-checkbox m-0">
+                                                                <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
+                                                                <span class="custom-control-label">&nbsp;</span>
+                                                            </label>
+                                                        </th>
+                                                        <th class="nosort">Orden</th>
+                                                        <th>Cliente</th>
+                                                        <th>Emisión</th>
+                                                        <th>Proyectos</th>
+                                                        <th>Estado de la orden</th>
+                                                        <th>Estato de pago</th>
+                                                        <th>Estado de envío</th>
+                                                        <th>Total</th>
+                                                        <th class="nosort">&nbsp;</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="nosort" width="10">
+                                                            <label class="custom-control custom-checkbox m-0">
+                                                                <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
+                                                                <span class="custom-control-label">&nbsp;</span>
+                                                            </label>
+                                                        </th>
+                                                        <td>#1</td>
+                                                        <td>Ricardo Emmanuel</td>
+                                                        <td>03/04/2022 13:34:01</td>
+                                                        <td><button type="button" class="btn btn-outline-primary"><i class="ik bi bi-info-circle"></i>Ver carrito</button></td>
+                                                        <td><button class="btn btn-success">Completado</button></td>
+                                                        <td><p class="text-success">Pagado</p></td>
+                                                        <td><p class="text-success">Enviado</p></td>
+                                                        <td>$342.00</td>
+                                                        <td>
+                                                            <div class="table-actions">
+                                                                <a href="pages/admin/ordenes-de-compra_info.html"><i class="ik ik-eye"></i></a>
+                                                                <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="nosort" width="10">
+                                                            <label class="custom-control custom-checkbox m-0">
+                                                                <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
+                                                                <span class="custom-control-label">&nbsp;</span>
+                                                            </label>
+                                                        </th>
+                                                        <td>#2</td>
+                                                        <td>Verónica Hernandez</td>
+                                                        <td>01/04/2022 23:44:23</td>
+                                                        <td><button type="button" class="btn btn-outline-primary"><i class="ik bi bi-info-circle"></i>Ver carrito</button></td>
+                                                        <td><button class="btn btn-warning">En proceso</button></td>
+                                                        <td><p class="text-warning">Pendiente</p></td>
+                                                        <td><p class="text-warning">Sin enviar</p></td>
+                                                        <td>$129.50</td>
+                                                        <td>
+                                                            <div class="table-actions">
+                                                                <a href="pages/admin/ordenes-de-compra_info.html"><i class="ik ik-eye"></i></a>
+                                                                <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="nosort" width="10">
+                                                            <label class="custom-control custom-checkbox m-0">
+                                                                <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
+                                                                <span class="custom-control-label">&nbsp;</span>
+                                                            </label>
+                                                        </th>
+                                                        <td>#3</td>
+                                                        <td>Emmanuel rdg</td>
+                                                        <td>20/03/2022 10:35:01</td>
+                                                        <td><button type="button" class="btn btn-outline-primary"><i class="ik bi bi-info-circle"></i>Ver carrito</button></td>
+                                                        <td><button class="btn btn-warning">En proceso</button></td>
+                                                        <td><p class="text-warning">Pagado</p></td>
+                                                        <td><p class="text-success">Enviado</p></td>
+                                                        <td>$493.50</td>
+                                                        <td>
+                                                            <div class="table-actions">
+                                                                <a href="ordenes-de-compra_info.html"><i class="ik ik-eye"></i></a>
+                                                                <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="nosort" width="10">
+                                                            <label class="custom-control custom-checkbox m-0">
+                                                                <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
+                                                                <span class="custom-control-label">&nbsp;</span>
+                                                            </label>
+                                                        </th>
+                                                        <td>#4</td>
+                                                        <td>Usuario default</td>
+                                                        <td>23/02/2022 21:54:30</td>
+                                                        <td><button type="button" class="btn btn-outline-primary"><i class="ik bi bi-info-circle"></i>Ver carrito</button></td>
+                                                        <td><button class="btn btn-success">Completado</button></td>
+                                                        <td><p class="text-success">Pagado</p></td>
+                                                        <td><p class="text-success">Enviado</p></td>
+                                                        <td>$500.20</td>
+                                                        <td>
+                                                            <div class="table-actions">
+                                                                <a href="ordenes-de-compra_info.html"><i class="ik ik-eye"></i></a>
+                                                                <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-xl-8">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Resumen de ventas</h3>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <div id="bar_chart" class="chart-shadow" style="height:400px"></div>
                                     </div>
                                 </div>
                             </div>
@@ -427,6 +541,72 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="widget">
+                                    <div class="widget-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="state">
+                                                <h6>Proyectos publicados</h6>
+                                                <h2>405</h2>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="ik ik-message-square"></i>
+                                            </div>
+                                        </div>
+                                        <small class="text-small mt-10 d-block">61% higher than last month</small>
+                                    </div>
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="widget">
+                                    <div class="widget-header">
+                                        <h3 class="widget-title">Sugerencia 1</h3>
+                                        <div class="widget-tools pull-right">
+                                            <button type="button" class="btn btn-widget-tool remove-widget ik ik-x"></button>
+                                        </div>
+                                    </div>
+                                    <div class="widget-body">
+                                        Sugerencia de panel de administración
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="widget">
+                                    <div class="widget-header">
+                                        <h3 class="widget-title">Sugerencia 2</h3>
+                                        <div class="widget-tools pull-right">
+                                            <button type="button" class="btn btn-widget-tool remove-widget ik ik-x"></button>
+                                        </div>
+                                    </div>
+                                    <div class="widget-body">
+                                        Sugerencia de panel de administración
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="widget">
+                                    <div class="widget-header">
+                                        <h3 class="widget-title">Sugerencia 3</h3>
+                                        <div class="widget-tools pull-right">
+                                            <button type="button" class="btn btn-widget-tool remove-widget ik ik-x"></button>
+                                        </div>
+                                    </div>
+                                    <div class="widget-body">
+                                        Sugerencia de panel de administración
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            
+                            
                         </div>
 
                         <div class="row">
@@ -473,14 +653,7 @@
                                                 </div>
                                                 <div class="chat-time">10:59 am</div>
                                             </li>
-                                            <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/3.jpg" alt="user"></div>
-                                                <div class="chat-content">
-                                                    <h6 class="font-medium">Angelina Rhodes</h6>
-                                                    <div class="box bg-light-info">Well we have good budget for the project</div>
-                                                </div>
-                                                <div class="chat-time">11:00 am</div>
-                                            </li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="card-footer chat-footer">
@@ -585,348 +758,6 @@
                         </div>
 
 
-                        <div class="card">
-                            <div class="card-header row">
-                                <div class="col col-sm-3">
-                                    <div class="dropdown d-inline-block">
-                                        <a class="btn-icon checkbox-dropdown dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                        <div class="dropdown-menu" aria-labelledby="moreDropdown">
-                                            <a class="dropdown-item" id="checkbox_select_all" href="javascript:void(0);">Select All</a>
-                                            <a class="dropdown-item" id="checkbox_deselect_all" href="javascript:void(0);">Deselect All</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-options d-inline-block">
-                                        <a href="#"><i class="ik ik-inbox"></i></a>
-                                        <a href="#"><i class="ik ik-plus"></i></a>
-                                        <a href="#"><i class="ik ik-rotate-cw"></i></a>
-                                        <div class="dropdown d-inline-block">
-                                            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-more-horizontal"></i></a>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="moreDropdown">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">More Action</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-6">
-                                    <div class="card-search with-adv-search dropdown">
-                                        <form action="">
-                                            <input type="text" class="form-control" placeholder="Search.." required>
-                                            <button type="submit" class="btn btn-icon"><i class="ik ik-search"></i></button>
-                                            <button type="button" id="adv_wrap_toggler" class="adv-btn ik ik-chevron-down dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                            <div class="adv-search-wrap dropdown-menu dropdown-menu-right" aria-labelledby="adv_wrap_toggler">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Full Name">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
-                                                <button class="btn btn-theme">Search</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-3">
-                                    <div class="card-options text-right">
-                                        <span class="mr-5">1 - 50 of 2,500</span>
-                                        <a href="#"><i class="ik ik-chevron-left"></i></a>
-                                        <a href="#"><i class="ik ik-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body p-0">
-                                <div class="list-item-wrap">
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option1">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Lorem Ipsum is simply dumm dummy text of the printing and typesetting industry.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option2">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Aenean eu pharetra arcu, vitae elementum sem. Sed non ligula molestie, finibus lacus at, suscipit mi. Nunc luctus lacus vel felis blandit, eu finibus augue tincidunt.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option3">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Donec lectus augue, suscipit in sodales sit amet, semper sit amet enim. Duis pretium, nisi id pretium ornare, tortor nibh sodales tellus.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header row">
-                                <div class="col col-sm-3">
-                                    <div class="card-options d-inline-block">
-                                        <a href="#"><i class="ik ik-inbox"></i></a>
-                                        <a href="#"><i class="ik ik-plus"></i></a>
-                                        <a href="#"><i class="ik ik-rotate-cw"></i></a>
-                                        <div class="dropdown d-inline-block">
-                                            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-more-horizontal"></i></a>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="moreDropdown">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">More Action</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-6">
-                                    <div class="card-search with-adv-search dropdown">
-                                        <form action="">
-                                            <input type="text" class="form-control global_filter" id="global_filter" placeholder="Search.." required>
-                                            <button type="submit" class="btn btn-icon"><i class="ik ik-search"></i></button>
-                                            <button type="button" id="adv_wrap_toggler" class="adv-btn ik ik-chevron-down dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                            <div class="adv-search-wrap dropdown-menu dropdown-menu-right" aria-labelledby="adv_wrap_toggler">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col0_filter" placeholder="Name" data-column="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col1_filter" placeholder="Position" data-column="1">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col2_filter" placeholder="Office" data-column="2">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col3_filter" placeholder="Age" data-column="3">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col4_filter" placeholder="Start date" data-column="4">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col5_filter" placeholder="Salary" data-column="5">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-theme">Search</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-3">
-                                    <div class="card-options text-right">
-                                        <span class="mr-5" id="top">1 - 50 of 2,500</span>
-                                        <a href="#"><i class="ik ik-chevron-left"></i></a>
-                                        <a href="#"><i class="ik ik-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <table id="advanced_table" class="table">
-                                    <thead>
-                                        <tr>
-                                            <th class="nosort" width="10">
-                                                <label class="custom-control custom-checkbox m-0">
-                                                    <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </th>
-                                            <th class="nosort">Avatar</th>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>61</td>
-                                            <td>2011/04/25</td>
-                                            <td>$320,800</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>$170,750</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
-                                            <td>$86,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Cedric Kelly</td>
-                                            <td>Senior Javascript Developer</td>
-                                            <td>Edinburgh</td>
-                                            <td>22</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/5.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Airi Satou</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>33</td>
-                                            <td>2008/11/28</td>
-                                            <td>$162,700</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Brielle Williamson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>New York</td>
-                                            <td>61</td>
-                                            <td>2012/12/02</td>
-                                            <td>$372,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Herrod Chandler</td>
-                                            <td>Sales Assistant</td>
-                                            <td>San Francisco</td>
-                                            <td>59</td>
-                                            <td>2012/08/06</td>
-                                            <td>$137,500</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Rhona Davidson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>Tokyo</td>
-                                            <td>55</td>
-                                            <td>2010/10/14</td>
-                                            <td>$327,900</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Colleen Hurst</td>
-                                            <td>Javascript Developer</td>
-                                            <td>San Francisco</td>
-                                            <td>39</td>
-                                            <td>2009/09/15</td>
-                                            <td>$205,500</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!--*****FIN DE LA SECCIÓN PRINCIPAL *****-->
@@ -1169,6 +1000,25 @@
             </div>
         </div>
         
+
+
+        <script src="plugins/chartist/dist/chartist.min.js"></script>
+        <script src="plugins/flot-charts/jquery.flot.js"></script>
+        <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
+        <script src="plugins/flot-charts/curvedLines.js"></script>
+        <script src="plugins/flot-charts/jquery.flot.tooltip.min.js"></script>
+        <script src="plugins/jquery-knob/dist/jquery.knob.min.js"></script>
+        <script src="plugins/amcharts3/amcharts/amcharts.js"></script>
+        <script src="plugins/amcharts3/amcharts/gauge.js"></script>
+        <script src="plugins/amcharts3/amcharts/serial.js"></script>
+        <script src="plugins/amcharts3/amcharts/themes/light.js"></script>
+        <script src="plugins/amcharts3/amcharts/pie.js"></script>
+        <script src="plugins/ammap3/ammap/ammap.js"></script>
+        <script src="plugins/ammap3/ammap/maps/js/usaLow.js"></script>
+        <script src="dist/js/theme.min.js"></script>
+        <script src="js/widget-chart.js"></script>
+        
+
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
         <script src="plugins/popper.js/dist/umd/popper.min.js"></script>
@@ -1189,7 +1039,27 @@
         <script src="js/widgets.js"></script>
         <script src="js/charts.js"></script>
         <script src="dist/js/theme.min.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+        <script src="plugins/amcharts/amcharts.js"></script>
+        <script src="plugins/amcharts/gauge.js"></script>
+        <script src="plugins/amcharts/serial.js"></script>
+        <script src="plugins/amcharts/themes/light.js"></script>
+        <script src="plugins/amcharts/animate.min.js"></script>
+        <script src="plugins/amcharts/pie.js"></script>
+        <script src="plugins/ammap3/ammap/ammap.js"></script>
+        <script src="plugins/ammap3/ammap/maps/js/usaLow.js"></script>
+
+        <script src="js/chart-amcharts.js"></script>
+
+    
+        
+        <script src="js/widget-statistic.js"></script>
+        
+
+        
+        
+        
+         Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -1198,5 +1068,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+
     </body>
 </html>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Forgot Password | ThemeKit - Admin Template</title>
+        <title>Login | ThemeKit - Admin Template</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
             <div class="container-fluid h-100">
                 <div class="row flex-row h-100 bg-white">
                     <div class="col-xl-8 col-lg-6 col-md-5 p-0 d-md-block d-lg-block d-sm-none d-none">
-                        <div class="lavalite-bg" style="background-color: aqua;">
+                        <div class="lavalite-bg" style="background-image: url('../img/auth/Access-bg.png')">
                             <div class="lavalite-overlay"></div>
                         </div>
                     </div>
@@ -42,20 +42,32 @@
                                 <a href="../../index.html"><img src="../img/logo-black.png" alt="" width=200px"></a>
                                 <hr>
                             </div>
-                            <h3>Olvide mi contraseña</h3>
-                            <p>Te enviaremos un link para reestablecer la contraseña</p>
-                            <form action="../index.html">
+                            <h3>Acceder </h3>
+                            <p>Datos de usuario:</p>
+                            <form action="../../micolab-perfil.html">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Tu correo electrónico" required="">
-                                    <i class="ik ik-mail"></i>
+                                    <input type="text" class="form-control" placeholder="Email" required="" value="usuario123@colabelectronica.com">
+                                    <i class="ik ik-user"></i>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" required="" value="123456">
+                                    <i class="ik ik-lock"></i>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-left">
+                                        <label class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option1">
+                                            <span class="custom-control-label">&nbsp;Recordarme</span>
+                                        </label>
+                                    </div>
+                                    <div class="col text-right">
+                                        <a href="forgot-password.html">Contraseña olvidada?</a>
+                                    </div>
                                 </div>
                                 <div class="sign-btn text-center">
-                                    <button class="btn btn-theme">Enviar</button>
+                                    <a href="#"><button class="btn btn-theme btn-block">Acceder</button> </a>
                                 </div>
                             </form>
-                            <div class="register">
-                                <p><a href="login.html">Regresar a formulario de acceso</a></p>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -254,6 +254,16 @@ a.btn-3{
     margin-left: 20px;
     border-radius: 5%;
 }
+a.btn-4{
+    height:50px;
+	width:50px;
+	color:#fff;
+	border:2px solid #fff;
+	position: relative;
+	top: 35px;
+	font-size: 17px;
+    
+}
 
 a.btn-order {
 	height: 50px;

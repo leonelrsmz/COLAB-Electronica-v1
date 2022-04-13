@@ -166,7 +166,7 @@
                                 <div class="nav-item has-sub active open">
                                     <a href="#"><i class="ik ik-inbox"></i><span>Catálogo</span></a>
                                     <div class="submenu-content">
-                                        <a href="#" class="menu-item ">Proyectos</a>
+                                        <a href="proyectos.html" class="menu-item ">Proyectos</a>
                                         <a href="categorias.html" class="menu-item active">Categorías</a>
                                         <a href="componentes.html" class="menu-item">Componentes</a>
                                     </div>
@@ -393,7 +393,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="card" style="min-height: 484px;">
-                                    <div class="card-header"><h3>Clasificación: <span>Categorías generales</span></h3></div>
+                                    <div class="card-header"><h3 class="">Clasificación: <span class="text-secondary">Categoría electrónica</span></h3></div>
                                     <div class="row">
                                     <div class="card-body col-md-6">
                                         <form class="forms-sample">
@@ -416,8 +416,8 @@
                                                 <textarea class="form-control" id="exampleTextarea1" rows="2"></textarea>
                                             </div>
                                             
-                                            <button type="submit" class="btn btn-primary mr-2">Guardar</button>
-                                            <button class="btn btn-theme">Cancel</button>
+                                            <button type="submit" class="btn btn-primary mr-2"><i class="ik bi bi-plus-circle"></i>Agregar</button>
+                                            <button class="btn btn-danger">Cancelar</button>
                                         </form>
                                     </div>
                                     
@@ -435,9 +435,9 @@
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>Categorías generales</td>
-                                                    <td>Iot</td>
-                                                    <td>El internet de las cosas...</td>
+                                                    <td>Categorías electrónica</td>
+                                                    <td> <button class="btn btn-success">IoT</button></td>
+                                                    <td>Descripción de las categoría electrónica...</td>
                                                     <td>
                                                         <div class="table-actions">
                                                             <a href="#"><i class="ik ik-eye"></i></a>
@@ -447,10 +447,10 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>002</td>
-                                                    <td><img src="../img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                                                    <td>Abraham Douglas</td>
-                                                    <td>jgraham@example.com</td>
+                                                    <td>2</td>
+                                                    <td>Categorías electrónica</td>
+                                                    <td> <button class="btn btn-success">Mecatrónica</button></td>
+                                                    <td>Descripción de las categoría electrónica...</td>
                                                     <td>
                                                         <div class="table-actions">
                                                             <a href="#"><i class="ik ik-eye"></i></a>
@@ -460,10 +460,10 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>003</td>
-                                                    <td><img src="../img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                                                    <td>Roderick Simonis</td>
-                                                    <td>grant.simonis@example.com</td>
+                                                    <td>3</td>
+                                                    <td>Categorías electrónica</td>
+                                                    <td> <button class="btn btn-success">Electroacústica</button></td>
+                                                    <td>Descripción de las categoría electrónica...</td>
                                                     <td>
                                                         <div class="table-actions">
                                                             <a href="#"><i class="ik ik-eye"></i></a>
@@ -473,10 +473,10 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>004</td>
-                                                    <td><img src="../img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                                                    <td>Christopher Henry</td>
-                                                    <td>henry.chris@example.com</td>
+                                                    <td>4</td>
+                                                    <td>Categorías electrónica</td>
+                                                    <td> <button class="btn btn-success">Optoelectrónica</button></td>
+                                                    <td>Descripción de las categoría electrónica...</td>
                                                     <td>
                                                         <div class="table-actions">
                                                             <a href="#"><i class="ik ik-eye"></i></a>
@@ -486,10 +486,10 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>005</td>
-                                                    <td><img src="../img/users/5.jpg" class="table-user-thumb" alt=""></td>
-                                                    <td>Sonia Wilkinson</td>
-                                                    <td>boyle.aglea@example.com</td>
+                                                    <td>5</td>
+                                                    <td>Categorías electrónica</td>
+                                                    <td> <button class="btn btn-success">Otros</button></td>
+                                                    <td>Descripción de las categoría electrónica...</td>
                                                     <td>
                                                         <div class="table-actions">
                                                             <a href="#"><i class="ik ik-eye"></i></a>
@@ -498,6 +498,338 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                               
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card" style="min-height: 484px;">
+                                    <div class="card-header"><h3 class="">Clasificación: <span class="text-secondary">Motivo del proyecto</span></h3></div>
+                                    <div class="row">
+                                    <div class="card-body col-md-6">
+                                        <form class="forms-sample">
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Motivo:</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Motivo del proyecto">
+                                                </div>
+                                            </div>
+                                            <fieldset disabled="disabled">
+                                                <div class="form-group row">
+                                                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Clasificación</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Motivo del proyecto">
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="form-group row">
+                                                <label for="exampleInputMobile" class="col-sm-3 col-form-label">Descripción:</label>
+                                                <textarea class="form-control" id="exampleTextarea1" rows="2"></textarea>
+                                            </div>
+                                            
+                                            <button type="submit" class="btn btn-primary mr-2"><i class="ik bi bi-plus-circle"></i>Agregar</button>
+                                            <button class="btn btn-danger">Cancelar</button>
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <table id="" class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th class="nosort">Clasificación</th>
+                                                    <th>Nombre</th>
+                                                    <th>Descripción</th>
+                                                    <th class="nosort">&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Motivo del proyecto</td>
+                                                    <td> <button class="btn btn-primary">Experimetal</button></td>
+                                                    <td>Descripción del motivo...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Motivo del proyecto</td>
+                                                    <td> <button class="btn btn-primary">Académico</button></td>
+                                                    <td>Descripción del motivo...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Motivo del proyecto</td>
+                                                    <td> <button class="btn btn-primary">Profesional</button></td>
+                                                    <td>Descripción del motivo...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Motivo del proyecto</td>
+                                                    <td> <button class="btn btn-primary">Entretenimiento</button></td>
+                                                    <td>Descripción del motivo...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                               
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="card" style="min-height: 484px;">
+                                    <div class="card-header"><h3 class="">Clasificación: <span class="text-secondary">Clase</span></h3></div>
+                                    <div class="row">
+                                    <div class="card-body col-md-6">
+                                        <form class="forms-sample">
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Nombre de la clase de electrónica:</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Nombre de la clase de electrónica">
+                                                </div>
+                                            </div>
+                                            <fieldset disabled="disabled">
+                                                <div class="form-group row">
+                                                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Clasificación</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Clase">
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="form-group row">
+                                                <label for="exampleInputMobile" class="col-sm-3 col-form-label">Descripción:</label>
+                                                <textarea class="form-control" id="exampleTextarea1" rows="2"></textarea>
+                                            </div>
+                                            
+                                            <button type="submit" class="btn btn-primary mr-2"><i class="ik bi bi-plus-circle"></i>Agregar</button>
+                                            <button class="btn btn-danger">Cancelar</button>
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <table id="" class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th class="nosort">Clasificación</th>
+                                                    <th>Nombre</th>
+                                                    <th>Descripción</th>
+                                                    <th class="nosort">&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Clase</td>
+                                                    <td> <button class="btn btn-info">Electrónica analógica</button></td>
+                                                    <td>Descripción de la clase...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Clase</td>
+                                                    <td> <button class="btn btn-info">Electrónica digital</button></td>
+                                                    <td>Descripción de la clase...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Clase</td>
+                                                    <td> <button class="btn btn-info">Electrónica discreta</button></td>
+                                                    <td>Descripción de la clase...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Clase</td>
+                                                    <td> <button class="btn btn-info">Electrónica de potencia</button></td>
+                                                    <td>Descripción de la clase...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Clase</td>
+                                                    <td> <button class="btn btn-info">Híbrido</button></td>
+                                                    <td>Descripción de la clase...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                               
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="card" style="min-height: 484px;">
+                                    <div class="card-header"><h3 class="">Clasificación: <span class="text-secondary">Nivel de dificultad</span></h3></div>
+                                    <div class="row">
+                                    <div class="card-body col-md-6">
+                                        <form class="forms-sample">
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Nivel de dificultad:</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Dificultad">
+                                                </div>
+                                            </div>
+                                            <fieldset disabled="disabled">
+                                                <div class="form-group row">
+                                                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Clasificación</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Nivel de dificultad">
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="form-group row">
+                                                <label for="exampleInputMobile" class="col-sm-3 col-form-label">Descripción:</label>
+                                                <textarea class="form-control" id="exampleTextarea1" rows="2"></textarea>
+                                            </div>
+                                            
+                                            <button type="submit" class="btn btn-primary mr-2"><i class="ik bi bi-plus-circle"></i>Agregar</button>
+                                            <button class="btn btn-danger">Cancelar</button>
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <table id="" class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th class="nosort">Clasificación</th>
+                                                    <th>Nombre</th>
+                                                    <th>Descripción</th>
+                                                    <th class="nosort">&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Nivel</td>
+                                                    <td> <button class="btn btn-warning">Básico</button></td>
+                                                    <td>Delimitación de la dificultad...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Nivel</td>
+                                                    <td> <button class="btn btn-warning">Principiante</button></td>
+                                                    <td>Delimitación de la dificultad...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Nivel</td>
+                                                    <td> <button class="btn btn-warning">Intermedio</button></td>
+                                                    <td>Delimitación de la dificultad...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Nivel</td>
+                                                    <td> <button class="btn btn-warning">Experto</button></td>
+                                                    <td>Delimitación de la dificultad...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Nivel</td>
+                                                    <td> <button class="btn btn-warning">NA</button></td>
+                                                    <td>Delimitación de la dificultad...</td>
+                                                    <td>
+                                                        <div class="table-actions">
+                                                            <a href="#"><i class="ik ik-eye"></i></a>
+                                                            <a href="#"><i class="ik ik-edit-2"></i></a>
+                                                            <a href="#"><i class="ik ik-trash-2"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                               
                                             </tbody>
                                         </table>
                                     </div>
