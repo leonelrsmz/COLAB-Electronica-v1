@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Checkout</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+    <body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links text-center">
+						<li><a href="#"> Nosotros</a></li>
+                        <li> | </li>
+						<li><a href="#"> Blog</a></li>
+                        <li> | </li>
+						<li><a href="#"> Contacto</a></li>
+                        <li> | </li>
+                        <li><a href="#"> Mi cuenta</a></li>   
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="" width="150" height="80">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<input class="input-select" placeholder="Buscar"> </input>
+									<button class="search-btn">Buscar</button>
+								</form>
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Wishlist -->
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>Favoritos</span>
+										<div class="qty">2</div>
+									</a>
+                                    
+								</div>
+								<!-- /Wishlist -->
+
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Carrito</span>
+										<div class="qty">2</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/Proyectos/alarma.jpg" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Arlarma contra ladrones</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$180.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/Proyectos/control_luces.jpg" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Control de luminosidad</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$220.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+											
+										</div>
+										<div class="cart-summary">
+											<small>2 Proyectos seleccionados</small>
+											<h5>SUBTOTAL: $400.00</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Carrito</a>
+											<a href="#">Pagar  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Cart -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li><a href="./index.html">Inicio</a></li>
+						<li><a href="./proyects.html">Proyectos</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+        <!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="breadcrumb-tree">
+							<li><a href="./index.html">Home</a></li>
+							<li><a href="#">Carrito</a></li>
+							<li class="active">Checkout</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+        
+       <!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-7">
+						<!-- Billing Details -->
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">DIRECCIÓN DE FACTURACIÓN</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Nombre" placeholder="Nombre">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Apellido" placeholder="Apellido">
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" name="Email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Direccion" placeholder="Direccion">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Ciudad" placeholder="Ciudad">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Pais" placeholder="Pais">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="Codigo Postal" placeholder="Codigo Postal">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="Tel" placeholder="Telefono">
+							</div>
+							<div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="create-account">
+									<label for="create-account">
+										<span></span>
+                                        <b>¿AÚN NO ESTÁS REGISTRADO?</b> <br>
+									</label>
+									<div class="caption">
+										<p>
+                                        Regístrate para más beneficios: <br>
+                                        - Compras rápidas y fáciles <br>
+                                        - Acceso a historial de compras <br>
+                                        </p>
+										<a href="#" class="primary-btn order-submit">Registrarme</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Billing Details -->
+
+						<!-- Shiping Details -->
+						<div class="shiping-details">
+							<div class="section-title">
+								<h3 class="title">Direccion de Envio</h3>
+							</div>
+							<div class="input-checkbox">
+								<input type="checkbox" id="shiping-address">
+								<label for="shiping-address">
+									<span></span>
+									<b>¿ENVIAR A UNA DIRECCION DIFERENTE?</b>
+								</label>
+								<div class="caption">
+									<div class="form-group">
+                                        <input class="input" type="text" name="Nombre" placeholder="Nombre">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="text" name="Apellido" placeholder="Apellido">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="email" name="Email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="text" name="Direccion" placeholder="Direccion">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="text" name="Ciudad" placeholder="Ciudad">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="text" name="Pais" placeholder="Pais">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="text" name="Codigo Postal" placeholder="Codigo Postal">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="input" type="tel" name="Tel" placeholder="Telefono">
+                                    </div>
+								</div>
+							</div>
+						</div>
+						<!-- /Shiping Details -->
+
+						<!-- Order notes -->
+						<div class="order-notes">
+							<textarea class="input" placeholder="Notas adicionales"></textarea>
+						</div>
+						<!-- /Order notes -->
+					</div>
+
+					<!-- Order Details -->
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Tu pedido</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>PRODUCTO</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x Alarma contra ladrones</div>
+									<div>$180.00</div>
+								</div>
+								<div class="order-col">
+									<div>1x control de luminosidad</div>
+									<div>$220.00</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Envio</div>
+								<div><strong>Gratis</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total">$400.00</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Transferencia bancaria directa
+								</label>
+								<div class="caption">
+									<p>Realiza tu pago directamente a nuestra cuenta bancaria. Por favor usa el numero del pedido como referencia de pago.
+                                        Tu pedido no se procesara hasta que se haya recibido el importe en nuestra cuenta.
+                                    </p>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Sistema PayPal
+								</label>
+								<div class="caption">
+                                    <p>
+                                        Realiza tu pago con tu cuenta Paypal. Por favor usa el numero del pedido como referencia de pago.
+                                        Tu pedido no se procesara hasta que se haya recibido el importe en nuestra cuenta.
+                                    </p>
+                                </div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								He leído y acepto los <a href="./Terminos y Condiciones __COLAB.pdf">términos y condiciones</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Realizar Pedido</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+
+        <!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+                    <div class="logo-footer"><img src="./img/logo-white.png" alt="" width="220" height="100"></div>
+                    <!-- row -->
+					<div class="row">
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer">
+								<h3 class="footer-title">Nosotros</h3>
+								<p>Nosotros comos ...</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>Aguascalientes, Ags.</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+52 449 000 00 00</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>colab@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer">
+								<h3 class="footer-title">Informacion</h3>
+								<ul class="footer-links">
+									<li><a href="#">Acerca</a></li>
+									<li><a href="#">Contacto</a></li>
+									<li><a href="#">Politicas de privacidad</a></li>
+									<li><a href="#">Ordenes</a></li>
+									<li><a href="#">Terminos y condiciones</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer">
+								<h3 class="footer-title">Servicios</h3>
+								<ul class="footer-links">
+									<li><a href="#">Mi cuenta</a></li>
+									<li><a href="#">carrito</a></li>
+									<li><a href="#">Favoritos</a></li>
+									<li><a href="#">Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+            <!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright">
+
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+							</span>
+						</div>
+					</div>
+						<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
